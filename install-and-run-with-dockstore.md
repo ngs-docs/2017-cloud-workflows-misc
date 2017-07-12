@@ -1,4 +1,4 @@
-# Install, build, run dockstore foo
+# Install, build, run Common Workflow Language tools and workflows
 
 Starting from Ubuntu 16.04 on Jetstream.
 
