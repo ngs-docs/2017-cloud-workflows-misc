@@ -9,7 +9,7 @@ at the command line.
 This is the canonical way to do things, matching the usage in documentation
 provided by the CWL project and others.
 
-[Install and run a workflow with cwlref-runner](install-and-run-with-cwltool.md)
+#### Example: [Install and run a workflow with cwlref-runner](install-and-run-with-cwltool.md)
 
 ## Using the dockstore tool
 
@@ -23,4 +23,4 @@ A few notes:
 * Uses the `dockstore`-specific trick of putting output file names in the
   input object.
 
-[Install and run dockstore](install-and-run-with-dockstore.md)
+### Example: [Install and run dockstore](install-and-run-with-dockstore.md)
