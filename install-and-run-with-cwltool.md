@@ -47,7 +47,7 @@ curl -O -L https://github.com/CancerCollaboratory/dockstore-tool-bamstats/raw/de
 And now, you can run the tool like so --
 
 ```
-cwl-runner --outdir /tmp https://github.com/CancerCollaboratory/dockstore-tool-bamstats/raw/develop/Dockstore.cwl \
+cwl-runner https://github.com/CancerCollaboratory/dockstore-tool-bamstats/raw/develop/Dockstore.cwl \
     params.yaml
 ```
 
@@ -56,8 +56,8 @@ This command will now:
 * pull down the docker container for that task;
 * download the BAM data file to the local computer;
 * execute the specified task;
-* place the results in the specified location.
+* place the results in the current directory.
 
-The results should be a zipfile - you can try `unzip -v /tmp/bamstats_report.zip` to see its contents.
+The results should be a zipfile - you can try `unzip -v bamstats_report.zip` to see its contents.
 
 Voila!
