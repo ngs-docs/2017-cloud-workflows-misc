@@ -37,12 +37,12 @@ cwltool --make-template https://github.com/CancerCollaboratory/dockstore-tool-ba
     > params.yaml
 ```
 
-Edit the resulting file `params.yml` and replace the `path` for `bam_input` (which defaults to `default/file/path`) with 
+Edit the resulting file `params.yml` and replace the `path` for `bam_input` (which defaults to `default/file/path`) with `rna.SRR948778.bam`.  Then you'll
+need to download that file locally:
 
 ```
-https://github.com/CancerCollaboratory/dockstore-tool-bamstats/raw/develop/rna.SRR948778.bam
+curl -O -L https://github.com/CancerCollaboratory/dockstore-tool-bamstats/raw/develop/rna.SRR948778.bam
 ```
-which is the URL to a BAM file that will work (any BAM file will work as long as it's accessible!).
 
 And now, you can run the tool like so --
 
