@@ -1,4 +1,4 @@
-# Install, build, run Common Workflow Language tools and workflows
+# Install, build, & run with cwl-runner
 
 Starting from Ubuntu 16.04 on Jetstream.
 
