@@ -8,11 +8,11 @@ Now, install the Common Workflow Language reference runner:
 ```
 
 pip install setuptools>=28.8.0
+pip install cwlref-runner
 pip install -U https://github.com/common-workflow-language/cwltool/archive/generate_input_object.zip
 
-# this can be replaced by:
-# pip install cwlref-runner
-# once https://github.com/common-workflow-language/cwltool/pull/462 is merged.
+# The last command can be removed once 
+# https://github.com/common-workflow-language/cwltool/pull/462 is merged.
 ```
 
 ## Add your user account to the docker group
