@@ -7,7 +7,7 @@ Starting from Ubuntu 16.04 on Jetstream.
 Now, install the Common Workflow Language reference runner:
 ```
 
-pip install setuptools>=28.8.0
+pip install 'setuptools>=28.8.0'
 pip install cwlref-runner
 pip install -U https://github.com/common-workflow-language/cwltool/archive/generate_input_object.zip
 
