@@ -23,4 +23,4 @@ A few notes:
 * Uses the `dockstore`-specific trick of putting output file names in the
   input object.
 
-### Example: [Install and run dockstore](install-and-run-with-dockstore.md)
+#### Example: [Install and run dockstore](install-and-run-with-dockstore.md)
