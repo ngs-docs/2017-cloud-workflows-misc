@@ -1,5 +1,7 @@
 # Orchestrating bioinformatics workflows using the cloud
 
+Daniel Standage, Luiz Irber, C. Titus Brown
+
 Vision statement: the cloud will provide a major platforms for running bioinformatics workflows at scale in the future. This workshop will teach attendees the concepts, approaches, and details necessary to use the cloud.
 
 ## Meta-issues
