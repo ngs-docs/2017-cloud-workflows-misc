@@ -7,6 +7,7 @@ Vision statement: the cloud will provide a major platforms for running bioinform
 ## Meta-issues
 
 * What is "our" "vision"? Why are we doing it?
+    * Reusability of workflows is obviously the future!
     * Reproducibility/replicability/repeatability - using the cloud at scale means you have to clearly specify your workflow in a portable/transferrable way, which aids in these scientific goals.
     * Planning for poverty - many institutions lack dedicated on-premise HPCs and have no access to significant compute resources other than the cloud, and the cloud provides a way to minimize upfront investment in hardware.
     * Fault tolerance (unstable local infrastructure) - the cloud generally has excellent uptime and considerable robustness.  The cloud is usable even in situations where local power grids are unstable - all you need is occasional internet access.
